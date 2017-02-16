@@ -1,7 +1,6 @@
 class UniversitiesController < ApplicationController
 	before_action :find_university, only: [:show, :edit, :update, :destroy]
-	def index
-		
+	def index		
 	end
 	def show
 		
